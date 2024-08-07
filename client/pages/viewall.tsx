@@ -10,7 +10,7 @@ interface Property {
   description: string;
   _id:string;
 }
-
+ 
 const PropertyTable: React.FC = () => {
   const [userData, setUserData] = useState<Property[]>([]);
   console.log(userData,'userdata')
